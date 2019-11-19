@@ -1,0 +1,69 @@
+/*Carousel*/
+.carousel {
+    margin-bottom: 4rem;
+  }
+  
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: 45rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 45rem;
+  }
+
+  /*Footer*/
+  .footer{
+    padding: 2rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+
+  /*Card-Deck*/
+  .card-deck {
+    margin: 45px;
+  }
+
+  .form-register{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+  }
+
+  .form-titulo{
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top: 5px solid crimson;
+    border-bottom: 5px solid crimson;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .input-100{
+    width: 100%;
+  }
+
+ button{
+   margin: auto;
+ }
